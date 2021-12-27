@@ -1,0 +1,28 @@
+{
+  "name": "rockola",
+  "version": "1.0.0",
+  "description": "Esta aplicación se usara para desarrollar el backend de una rockola",
+  "main": "index.js",
+  "scripts": {
+    "build" : "tsc",
+    "start" : "npm run build && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mainhorse/rockola.git"
+  },
+  "author": "David sánchez @mainhorse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mainhorse/rockola/issues"
+  },
+  "homepage": "https://github.com/mainhorse/rockola#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
+}
